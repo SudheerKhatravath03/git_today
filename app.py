@@ -3,7 +3,7 @@ from PIL import Image
 
 import os
 
-input_folder = '/path/to/images'
+input_folder = '/path/to/image'
 output_folder = '/path/to/resized_images'
 desired_size = (100, 200)
 
