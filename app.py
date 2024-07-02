@@ -5,7 +5,7 @@ import os
 
 input_folder = '/path/to/image'
 output_folder = '/path/to/resized_images'
-desired_size = (100, 200)
+desired_size = (100, 200, 300)
 
 for filename in os.listdir(input_folder):
     with Image.open(os.path.join(input_folder, filename)) as img:
